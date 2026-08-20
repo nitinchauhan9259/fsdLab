@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="boxes" >
+        <h2 >Online shop</h2>
+        <h3>Tea :100</h3>
+        <h3>Coffee : 500</h3>
+        <h3>Aata :600</h3>
+        <h3>Sugar:800</h3>
+        <h3 id="result" <a> </a>> </h3>
+        <button onclick="enter()">Buy Now</button>
+    </div>
+    <script>
+        const products={
+            Tea:100,
+            Coffee:500,
+            Aata:600,
+            Sugar:800
+        }
+        function enter()
+        {
+            let a=prompt("Enter your product Name ");
+            let b=prompt("Enter your product Quantity");
+            let total=b*product[a];
+            document.getElementById("result").innerHTML =
+                `Your Total ${a} amount is ${total}`;
+        }
+    </script>
+</body>
+</html>
