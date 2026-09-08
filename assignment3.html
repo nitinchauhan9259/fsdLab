@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <style>
+        .container{
+            width:600px;
+            height:600px;
+            border:2px solid black;
+            background-color:aqua
+        }
+        .container1{
+            margin-left:150px;
+           margin-bottom: 100px;
+        }
+        .container2{
+            width:550px;
+            height:50px;
+            border:2px solid black;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+        }
+       .container3{
+           margin-left:10px;
+           padding:20px;
+       }
+       .container4{
+        width:550px;
+            height:50px;
+            border:2px solid black;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+       }
+       .contain1{
+        padding:40px;
+
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="container1">
+            <img>
+             <h2>Bus Booking system </h2>
+        </div>
+        <div class="container2">
+              <h2>User Information</h2>
+        </div>
+
+        <div class="container3">
+            <form>
+                <div>
+                <label for="username">User name</label>
+                <input type="text" name="username" id="username" placeholder="Enter your UserName">
+                </div>
+
+                <div>
+                    <label for="userage">User age</label>
+                    <input type="text" name="userage" id="userage" placeholder="Enter your age">
+                </div>
+
+                <div>
+                    <label for="useraadhar">aadhar Number</label>
+                    <input type="text" name="useraadhar" id="useraadhar" placeholder="Enter your aadhar Number">
+                </div>
+
+                <div>
+                    <label for="select-city">Select your city</label>
+                    <select name="city" id="select-city">
+                      <option value="none"></option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Deklhi">Delhi</option>
+                      <option value="Kolkata">Kolkata</option>
+                      <option value="Rajasthan">Rajasthan</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="dd">Journey Date</label>
+                    <input type="date" name="dd" id="dd" >
+                </div>
+            </form>
+        </div>
+            
+          <div class="container4">
+               <h2>Bus Information</h2>
+          </div>
+
+          <div clas="contain1">
+            <form action="">
+                <div>
+                     <input type="radio" id="ac-bus" name="ac-bus">
+                <label>AC BUS 2000</label>
+                </div>
+              
+                <div>
+                     <input type="radio" id="ac-bus" name="ac-bus">
+                     <label>Non-AC BUS 1500</label>
+                </div>
+            </form>
+          </div>
+    </div>
+    <script src="assignment3.js"></script>
+
+</body>
+</html>
